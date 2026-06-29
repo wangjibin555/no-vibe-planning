@@ -1,0 +1,11 @@
+{
+  "name": "no-vibe-planning",
+  "description": "Relentlessly interrogate a plan, spec, or architecture until every decision branch is aligned, then hand the aligned decision ledger off to design → build → verify. A protocol-level alignment gate, not a reminder.",
+  "version": "1.0.0",
+  "author": {
+    "name": "wangjibin555"
+  },
+  "license": "MIT",
+  "keywords": ["alignment", "planning", "decision-ledger", "spec", "guidelines", "best-practices"],
+  "skills": ["./skills/no-vibe-planning"]
+}

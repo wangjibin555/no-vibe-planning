@@ -1,0 +1,24 @@
+{
+  "name": "no-vibe-planning",
+  "id": "no-vibe-planning",
+  "owner": {
+    "name": "wangjibin555"
+  },
+  "metadata": {
+    "description": "A protocol-level alignment gate for coding agents: interrogate the plan until every decision is pinned, then hand off to design → build → verify.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "no-vibe-planning",
+      "source": "./",
+      "description": "Relentlessly interrogate a plan/spec/architecture until every decision branch is aligned and recorded in a decision ledger. No alignment, no building.",
+      "version": "1.0.0",
+      "author": {
+        "name": "wangjibin555"
+      },
+      "keywords": ["alignment", "planning", "decision-ledger", "spec", "guidelines"],
+      "category": "workflow"
+    }
+  ]
+}
