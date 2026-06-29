@@ -55,11 +55,19 @@ Asking questions is step one. No-Vibe Planning adds the three things that make a
 
 Then just say **"interrogate me"** (or, in Chinese, **"开始对账"** / **"开始质询我"**) on any plan, spec, or architecture.
 
-**Option B — drop into a project's `CLAUDE.md`**
+**Option B — append to a `CLAUDE.md`**
+
+Pick where it should apply, then append:
 
 ```bash
+# Global (all projects):
+curl https://raw.githubusercontent.com/wangjibin555/no-vibe-planning/main/CLAUDE.md >> ~/.claude/CLAUDE.md
+
+# Or per-project — run this from the project root:
 curl https://raw.githubusercontent.com/wangjibin555/no-vibe-planning/main/CLAUDE.md >> CLAUDE.md
 ```
+
+> ⚠️ `~/CLAUDE.md` (your home folder) is **not** read by Claude Code. Use `~/.claude/CLAUDE.md` for global, or the project root for per-project.
 
 ## How to use it
 
