@@ -1,6 +1,6 @@
 ---
 name: no-vibe-planning
-description: Relentlessly interrogate a plan, spec, or architecture until every decision branch is aligned and a shared consensus is reached — then carry that alignment downstream into a decision → design → build → verify chain. Triggers when the user says "interrogate me", "challenge my plan", "poke holes in this", or (in Chinese) "开始对账" / "开始质询我" (MUST trigger immediately), or when co-building a spec, plan, initial architecture, or making a key technical decision. Do NOT start building until the decision ledger is fully resolved.
+description: Relentlessly interrogate a plan, spec, or architecture until every decision branch is aligned and a shared consensus is reached — then carry that alignment downstream into a decision → design → build → verify chain. Trigger immediately when the user says any of these (English or Chinese): "interrogate me", "challenge my plan", "poke holes in this", "开始对账", "开始质询我". Also trigger when co-building a spec, plan, initial architecture, or making a key technical decision. Do NOT start building until the decision ledger is fully resolved.
 license: MIT
 ---
 
